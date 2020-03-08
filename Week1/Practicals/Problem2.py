@@ -1,4 +1,11 @@
-AB = 3
-AC = 4
-BC = (AB**2 + AC**2)**(1/2)
-print("The hypotenuse of the triangle ABC = ", BC)
+course = "Intro to Python"
+student = "Harutyun Hakobyan"
+nickname = "Harut"
+grade = 100
+pythonExpert = True
+    
+print("course: " + course)
+print("student: " + student)
+print("nickname: " + nickname)
+print("grade:",grade)
+print("pythonExpert:",pythonExpert)
