@@ -1,0 +1,5 @@
+text = input()
+middle = int((len(text)-1)/2)
+print("The old string: " + text)
+print("Middle 3 characters: " + text[middle-1:middle+2])
+print("The new string: " + text[:middle-1] + text[middle-1:middle+2].upper() + text[middle+2:])
